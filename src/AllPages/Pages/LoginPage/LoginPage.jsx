@@ -1,4 +1,3 @@
-import { AiFillAlipayCircle } from "react-icons/ai";
 import companyLogo from "../../../assets/CompanyLogo.png";
 import loginImage from "../../../assets/LoginImage.png";
 import { MdOutlineEmail } from "react-icons/md";
