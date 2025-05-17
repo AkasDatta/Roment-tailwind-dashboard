@@ -4,11 +4,11 @@ import RightAdmin from './RightAdmin/RightAdmin';
 
 const AdminPage = () => {
     return (
-        <div className='p-8 grid grid-cols-5'>
-            <div>
+        <div className='p-8 grid grid-cols-1 lg:grid-cols-12'>
+            <div className='col-span-1 lg:col-span-3'>
                 <LeftAdmin></LeftAdmin>
             </div>
-            <div>
+            <div className='col-span-1 lg:col-span-9'>
                 <RightAdmin></RightAdmin>
             </div>
         </div>
