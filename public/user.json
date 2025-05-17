@@ -1,0 +1,38 @@
+[
+  {
+    "employeeName": "Zamestnanec 1",
+    "task": "Šadrovanie",
+    "status": "ukončené",
+    "image": "https://plus.unsplash.com/premium_photo-1664300047639-b472fad54a26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "employeeName": "Zamestnanec 2",
+    "task": "Ťahanie káblov",
+    "status": "dokončené",
+    "image": "https://images.unsplash.com/photo-1570470836811-78ef04bb23d3?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "employeeName": "Zamestnanec 1",
+    "task": "Montáž zásuviek",
+    "status": "dokončené",
+    "image": "https://plus.unsplash.com/premium_photo-1664300544490-db618536f6c8?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "employeeName": "Zamestnanec 1",
+    "task": "Revízie",
+    "status": "dokončené",
+    "image": "https://plus.unsplash.com/premium_photo-1682147293489-da296e2e7dfb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "employeeName": "Zamestnanec 1",
+    "task": "Sekanie & šádrovanie",
+    "status": "dokončené",
+    "image": "https://plus.unsplash.com/premium_photo-1682147310420-01b35dfe0e73?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "employeeName": "Zamestnanec 1",
+    "task": "Montáž svietidiel",
+    "status": "dokončené",
+    "image": "https://plus.unsplash.com/premium_photo-1663091589141-7678e48cc7c6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
