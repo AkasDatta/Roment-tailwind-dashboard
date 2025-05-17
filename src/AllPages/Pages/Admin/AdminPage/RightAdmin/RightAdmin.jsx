@@ -28,11 +28,11 @@ const RightAdmin = () => {
                 <div className="col-span-1 lg:col-span-3">
 
                 </div>
-                <div className="col-span-1 lg:col-span-2 bg-white">
-                    <div>
-                        <h2>Najnovšia aktivita</h2>
-                        <div className="border p-1 rounded-full">
-                            <FaAngleDown className="text-xl"/>
+                <div className="col-span-1 lg:col-span-2 bg-white p-5 rounded-xl">
+                    <div className="flex justify-between items-center">
+                        <h2 className="text-xl font-semibold">Najnovšia aktivita</h2>
+                        <div className="border p-1 border-white rounded-full bg-[#E84242] text-white">
+                            <FaAngleRight className="text-xl"/>
                         </div>
                     </div>
                 </div>
