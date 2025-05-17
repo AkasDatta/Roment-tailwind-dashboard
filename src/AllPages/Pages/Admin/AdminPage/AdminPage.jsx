@@ -4,7 +4,7 @@ import RightAdmin from './RightAdmin/RightAdmin';
 
 const AdminPage = () => {
     return (
-        <div className='p-8 grid grid-cols-1 lg:grid-cols-12'>
+        <div className='p-8 grid grid-cols-1 lg:grid-cols-12 gap-0 lg:gap-12 xl:gap-0'>
             <div className='col-span-1 lg:col-span-3'>
                 <LeftAdmin></LeftAdmin>
             </div>
