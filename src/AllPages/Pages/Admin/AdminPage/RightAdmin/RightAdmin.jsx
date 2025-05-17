@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import { FaClock } from "react-icons/fa";
+import { FaSackDollar } from "react-icons/fa6";
+import { PiBagSimple, PiBagSimpleFill } from "react-icons/pi";
 import { RxCaretDown, RxCaretRight } from "react-icons/rx";
 
 const RightAdmin = () => {
@@ -13,7 +16,7 @@ const RightAdmin = () => {
   }, []);
 
   return (
-    <div className="bg-[#F5F7FB] w-full h-screen rounded-xl p-5">
+    <div className="bg-[#F5F7FB] w-full rounded-xl p-5">
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
         <div>
           <h2 className="text-lg lg:text-2xl">Prehľad - Konateľ / Admin</h2>
@@ -36,8 +39,39 @@ const RightAdmin = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-6">
-        <div className="col-span-1 lg:col-span-4"></div>
+      <div className="grid grid-cols-1 lg:grid-cols-6 gap-5">
+        <div className="col-span-1 lg:col-span-4">
+            <div>
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5">
+                    {/* Card 1: Počet hodín */}
+                    <div className="bg-white rounded-2xl p-4 w-full">
+                        <div className=" mb-3">
+                            <FaClock className="text-white text-5xl bg-[#D13D37] p-3 rounded-full"/>
+                        </div>
+                        <div className="text-sm text-black">Počet hodín</div>
+                        <div className="text-3xl font-semibold text-black pb-2">120 <span className="text-gray-400">h</span></div>
+                    </div>
+
+                    {/* Card 2: Celkové mzdy */}
+                    <div className="bg-white rounded-2xl p-4 w-full">
+                        <div className=" mb-3">
+                            <FaSackDollar className="text-white text-5xl bg-[#D13D37] p-3 rounded-full"/>
+                        </div>
+                        <div className="text-sm text-black">Celkové mzdy</div>
+                        <div className="text-3xl pb-2 font-semibold text-black">3,000 €</div>
+                    </div>
+
+                    {/* Card 3: Dokončené zákazky */}
+                    <div className="bg-white rounded-2xl p-4 w-full">
+                        <div className=" mb-3">
+                            <PiBagSimpleFill className="text-white text-5xl bg-[#D13D37] p-3 rounded-full"/>
+                        </div>
+                        <div className="text-sm text-black">Dokončené zákazky</div>
+                        <div className="text-3xl pb-2  font-semibold text-black">25</div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div className="col-span-1 lg:col-span-2 bg-white p-5 rounded-xl">
           <div className="flex justify-between items-center">
             <h2 className="text-xl font-semibold">Najnovšia aktivita</h2>

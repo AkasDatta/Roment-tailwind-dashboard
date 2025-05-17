@@ -9,7 +9,7 @@ import { IoSettingsOutline } from "react-icons/io5";
 
 const LeftAdmin = () => {
     return (
-        <div className="w-64 h-screen text-white flex flex-col justify-between">
+        <div className="w-64 h-full text-white flex flex-col justify-between">
             {/* Top Section */}
             <div>
                 <div className="px-6 pb-12">
