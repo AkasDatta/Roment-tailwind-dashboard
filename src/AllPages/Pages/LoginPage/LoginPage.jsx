@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import companyLogo from "../../../assets/CompanyLogo.png";
 import loginImage from "../../../assets/LoginImage.png";
 import { MdOutlineEmail } from "react-icons/md";
@@ -57,17 +58,16 @@ const LoginPage = () => {
                                 Zabudnuté heslo?
                             </p>
                     </div>
-                <button
-                    type="submit"
-                    className="cursor-pointer w-full text-white bg-[#D13D37] hover:bg-red-800 duration-500 font-medium rounded-full text-sm px-5 py-2.5 text-center"
-                >
-                    Prihlásiť sa
-                </button>
-            
+                    <Link
+                        to="/adminPage"
+                        className="block w-full cursor-pointer text-white bg-[#D13D37] hover:bg-red-800 duration-500 font-medium rounded-full text-sm px-5 py-2.5 text-center"
+                        >
+                        Prihlásiť sa
+                    </Link>
                 </form>
             </div>
             <div>
-            <img src={loginImage} className="w-full h-auto max-h-[650px] object-contain" alt="" />
+                <img src={loginImage} className="w-full h-auto max-h-[650px] object-contain" alt="" />
             </div>
         </div>
     );
